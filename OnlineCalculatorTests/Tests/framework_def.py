@@ -15,7 +15,7 @@ class framework():
     canvasWidth = 0
     canvasHeight = 0
     global driver
-    path = "C:/Users/user/PycharmProjects/chromedriver.exe"
+    path = "/path/to/driver/chromedriver.exe"
     driver = webdriver.Chrome(path)
 
     def __init__(self):
